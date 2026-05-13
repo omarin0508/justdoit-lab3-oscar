@@ -13,7 +13,7 @@ import java.util.Optional;
 public class UserRepositoryInMemoryImpl implements UserRepository {
 
     @Override
-    public Optional<User> findByUserName(String userName) {
+    public Optional<User> findByUsername(String userName) {
         if (userName == null || userName.trim().isEmpty()) {
             return Optional.empty();
         }

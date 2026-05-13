@@ -19,16 +19,15 @@ public class UserService {
     }
 
     /**
-     * Authenticate a user by username. For initial purposes this only looks
-     * up the user by username and returns it if present.
+     * Find  a user by username.
      *
-     * @param username the username to authenticate
+     * @param username the username to look up
      * @return Optional containing the User if found
      */
-    public Optional<User> authenticate(String username) {
+    public Optional<User> findByUsername(String username) {
         if (username == null || username.trim().isEmpty()) {
             return Optional.empty();
         }
-        return userRepository.findByUserName(username.trim());
+        return userRepository.findByUsername(username.trim());
     }
 }

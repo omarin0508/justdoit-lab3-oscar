@@ -30,7 +30,7 @@ public class UserTasksController {
         // Retrieve user tasks and add to user object in session
         User user = (User) model.getAttribute("user");
         if (user != null) {
-            user.setTasks(taskService.getTasksForUser(user.getUserName()));
+            user.setTasks(taskService.getTasksForUser(user.getUsername()));
         }
 
         return "usertasks";
@@ -45,7 +45,7 @@ public class UserTasksController {
             return "usertasks";
         }
 
-        taskService.addTaskToUser(user.getUserName(), newTask);
+        taskService.addTaskToUser(user.getUsername(), newTask);
         return "redirect:/user/tasks";
     }
 }
