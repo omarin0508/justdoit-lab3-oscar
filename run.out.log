@@ -1,0 +1,155 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for teccr:JustDoItCloud:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.scope' for org.projectlombok:lombok:jar must be one of [provided, compile, runtime, test, system] but is 'annotationProcessor'. @ line 66, column 20
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Progress (1): 243 BProgress (2): 243 B | 249 BProgress (3): 243 B | 249 B | 234 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/cyclonedx/maven-metadata.xml (243 B at 330 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 338 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 316 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Progress (1): 255 B                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 332 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Progress (1): 394 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 3.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 375 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 2.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 398 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 1.9 kB/s)
+Progress (1): 242 BProgress (2): 242 B | 4.6 kB                            Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 1.3 kB/s)
+Progress (1): 9.7 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 118 kB/s)
+Progress (1): 3.1 kBProgress (1): 7.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 82 kB/s)
+[INFO] 
+[INFO] ------------------------< teccr:JustDoItCloud >-------------------------
+[INFO] Building JustDoItCloudPresentacion 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.2:run (default-cli) > test-compile @ JustDoItCloud >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ JustDoItCloud ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ JustDoItCloud ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 15 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/interceptor/AuthenticationInterceptor.java:[29,9] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.interceptor.AuthenticationInterceptor
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/interceptor/TimingInterceptor.java:[30,13] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.interceptor.TimingInterceptor
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[26,9] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[30,13] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[35,13] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LogoutController.java:[23,17] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.LogoutController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LogoutController.java:[25,17] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.LogoutController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[29,39] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.time.LocalDateTime,<nulltype>,teccr.justdoitcloud.data.Task.Status
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[33,59] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type teccr.justdoitcloud.data.User
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[43,9] cannot find symbol
+  symbol:   variable log
+  location: class teccr.justdoitcloud.controller.UserTasksController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[48,39] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type teccr.justdoitcloud.data.User
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/TaskRepositoryInMemoryImpl.java:[25,21] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.time.LocalDateTime,<nulltype>,teccr.justdoitcloud.data.Task.Status
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/TaskRepositoryInMemoryImpl.java:[27,16] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.time.LocalDateTime,java.time.LocalDate,teccr.justdoitcloud.data.Task.Status
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/UserRepositoryInMemoryImpl.java:[21,21] constructor User in class teccr.justdoitcloud.data.User cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,teccr.justdoitcloud.data.User.Type
+  reason: actual and formal argument lists differ in length
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.986 s
+[INFO] Finished at: 2026-05-13T20:14:12-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project JustDoItCloud: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/interceptor/AuthenticationInterceptor.java:[29,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.interceptor.AuthenticationInterceptor
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/interceptor/TimingInterceptor.java:[30,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.interceptor.TimingInterceptor
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[26,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[30,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LoginController.java:[35,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.LoginController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LogoutController.java:[23,17] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.LogoutController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/LogoutController.java:[25,17] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.LogoutController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[29,39] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.time.LocalDateTime,<nulltype>,teccr.justdoitcloud.data.Task.Status
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[33,59] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type teccr.justdoitcloud.data.User
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[43,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class teccr.justdoitcloud.controller.UserTasksController
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/controller/UserTasksController.java:[48,39] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type teccr.justdoitcloud.data.User
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/TaskRepositoryInMemoryImpl.java:[25,21] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.time.LocalDateTime,<nulltype>,teccr.justdoitcloud.data.Task.Status
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/TaskRepositoryInMemoryImpl.java:[27,16] constructor Task in class teccr.justdoitcloud.data.Task cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.time.LocalDateTime,java.time.LocalDate,teccr.justdoitcloud.data.Task.Status
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/Oscar Marin/IdeaProjects/solidlab/JustDoItCloudLogicaNegocios/src/main/java/teccr/justdoitcloud/repository/UserRepositoryInMemoryImpl.java:[21,21] constructor User in class teccr.justdoitcloud.data.User cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,teccr.justdoitcloud.data.User.Type
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
